@@ -1,4 +1,5 @@
 .products {
+  padding-bottom: 200px;
   &__cards {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -30,4 +31,8 @@
       }
     }
   }
+}
+
+.see-more {
+  padding: 20px;
 }
